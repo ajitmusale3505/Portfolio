@@ -4,7 +4,7 @@ A personal developer portfolio built with React and Vite — an animated, single
 
 **Live Demo:** [https://ajit-portfolio-dev.netlify.app]
 
-![Portfolio Banner](./screenshots/about.png)
+![Portfolio Banner](MY_portfolio/screenshots/about.png)
 
 ---
 
