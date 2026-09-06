@@ -2,7 +2,7 @@
 
 A personal developer portfolio built with React and Vite — an animated, single-page dashboard that presents my profile, skills, projects, work experience, certifications, and a working contact form.
 
-**Live Demo:** [https://ajit-portfolio-dev.netlify.app]
+**Live Demo:** [https://ajitm-portfolio.netlify.app/]
 
 ![Portfolio Banner](MY_portfolio/screenshots/about.png)
 
