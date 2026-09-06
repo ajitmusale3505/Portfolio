@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Developer Portfolio Dashboard video poster">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071827"/>
+      <stop offset="1" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#42d9ff"/>
+      <stop offset="1" stop-color="#74f7d2"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g opacity=".22" stroke="#42d9ff">
+    <path d="M80 116h1120M80 188h1120M80 260h1120M80 332h1120M80 404h1120M80 476h1120M80 548h1120"/>
+    <path d="M120 76v568M264 76v568M408 76v568M552 76v568M696 76v568M840 76v568M984 76v568M1128 76v568"/>
+  </g>
+  <rect x="124" y="108" width="1032" height="504" rx="34" fill="#08111c" stroke="#42d9ff" stroke-width="3"/>
+  <rect x="164" y="198" width="320" height="250" rx="26" fill="#111827"/>
+  <rect x="524" y="198" width="260" height="106" rx="20" fill="#111827"/>
+  <rect x="820" y="198" width="260" height="106" rx="20" fill="#111827"/>
+  <rect x="524" y="342" width="556" height="106" rx="20" fill="#111827"/>
+  <g fill="#cbd5e1" font-family="Inter, Arial, sans-serif">
+    <text x="164" y="584" font-size="28" font-weight="700">Developer Portfolio Dashboard</text>
+    <text x="164" y="626" font-size="20" opacity=".72">Project recording preview</text>
+  </g>
+  <circle cx="640" cy="360" r="72" fill="#071018" stroke="url(#accent)" stroke-width="5" filter="url(#glow)"/>
+  <path d="M620 318v84l70-42z" fill="#ffffff"/>
+</svg>

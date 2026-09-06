@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260">
+  <defs>
+    <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ef4444"/><stop offset="1" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g filter="url(#glow)">
+    <path d="M70 72 Q110 35 150 72 L166 122 Q110 145 54 122Z" fill="url(#suit)" stroke="#fecaca" stroke-width="2"/>
+    <path d="M83 126 Q110 139 137 126 L169 160 L194 229 Q157 255 110 252 Q63 255 26 229 L51 160Z" fill="url(#blue)" stroke="#bfdbfe" stroke-width="2"/>
+    <path d="M51 160 L83 126 Q92 143 110 147 Q128 143 137 126 L169 160 L150 190 L110 170 L70 190Z" fill="url(#suit)" opacity=".95"/>
+    <path d="M110 46 V132 M70 69 Q110 92 150 69 M60 95 Q110 116 160 95 M77 52 Q82 92 92 130 M143 52 Q138 92 128 130" fill="none" stroke="#fee2e2" stroke-width="1.7" opacity=".7"/>
+    <path d="M83 76 Q96 67 107 78 L101 87 Q91 84 83 90Z M137 76 Q124 67 113 78 L119 87 Q129 84 137 90Z" fill="#fff" stroke="#0f172a" stroke-width="3"/>
+    <circle cx="110" cy="116" r="8" fill="#111827"/><path d="M110 112v8M106 116h8" stroke="#fff" stroke-width="1.4"/>
+    <path d="M28 229 Q48 207 72 205 M192 229 Q172 207 148 205" fill="none" stroke="#ef4444" stroke-width="9" stroke-linecap="round"/>
+  </g>
+</svg>
