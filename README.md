@@ -121,15 +121,15 @@ npm run build
 
 | About | Skills |
 |---|---|
-| ![About](./screenshots/about.png) | ![Skills](./screenshots/skills.png) |
+| ![About](MY_portfolio/screenshots/about.png) | ![Skills](MY_portfolio/screenshots/skills.png) |
 
 | Projects | Experience |
 |---|---|
-| ![Projects](./screenshots/projects.png) | ![Experience](./screenshots/experience.png) |
+| ![Projects](MY_portfolio/screenshots/projects.png) | ![Experience](MY_portfolio/screenshots/experience.png) |
 
 | Contact |
 |---|
-| ![Contact](./screenshots/contact.png) |
+| ![Contact](MY_portfolio/screenshots/contact.png) |
 
 ---
 
